@@ -5,6 +5,14 @@ public class Feeder {
      * in the constructor and always greater than or equal to zero
      */
     private int currentFood;
+    public Feeder(int food)
+    {
+        currentFood = food;
+    }
+    public  int getCurrentFood()
+    {
+        return currentFood;
+    }
 
     /**
      * Simulates one day with numBirds birds or possibly a bear at the bird
